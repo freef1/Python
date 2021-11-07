@@ -122,7 +122,7 @@ else:
     print('Переменная currency_convertor = ', item_3)
 
 # Усложнение
-list_currency = ['eur', 'usd', 'rub', 'uah', 'chf', 'byn']
+list_currency = ['eur', 'rub', 'uah', 'chf', 'byn']
 currency_result = int
 while currency_result == int:
     target_currency = input("Введите валюту, которую хотите конвертировать в usd:")
